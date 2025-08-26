@@ -37,7 +37,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    println("Okay Navigating to Login Screen1")
+    println("Okay Navigating to Login Screen")
     ComposeApplicationTheme {
 
     }
