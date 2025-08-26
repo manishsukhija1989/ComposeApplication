@@ -37,7 +37,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    println("This is for Automatic build check.")
+    println("This is for Automatic build check. Thank you")
     ComposeApplicationTheme {
 
     }
