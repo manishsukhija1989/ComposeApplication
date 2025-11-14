@@ -8,4 +8,4 @@ phases:
       - ./gradlew build
 artifacts:
   files:
-    - app/build/outputs/apk/app-debug.apk
+    - app/build/output/apk/app-debug.apk
