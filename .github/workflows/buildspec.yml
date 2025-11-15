@@ -3,8 +3,10 @@ version: 0.2
 phases:
   build:
     commands:
+      - chmod +x ./gradlew
       - ./gradlew assembleDebug
+      - $CODEBUILD_SRC_DIR
 artifacts:
   files:
-    - app/build/outputs/apk/app-debug.apk
+    - './android/app/build/outputs/**/*.apk'
   discard-paths: yes
