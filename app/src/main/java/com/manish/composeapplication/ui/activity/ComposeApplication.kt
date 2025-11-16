@@ -9,7 +9,7 @@ class ComposeApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         context = this
-        //This is a comment added to test git changes
+        //This is a comme nt added to test git changes
     }
 
     fun getAppComposeContext(): Context? {
